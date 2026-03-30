@@ -1074,6 +1074,51 @@
             ]
         }
     },
+        
+    "smoke in their lungs":{
+        "duration": 3,
+        "severity": "major",
+        "medicine_duration": 2,
+        "mortality": {
+            "newborn": 10,
+            "kitten": 15,
+            "adolescent": 50,
+            "young adult": 60,
+            "adult": 60,
+            "senior adult": 60,
+            "senior": 30
+        },
+        "illness_infectiousness": [
+            {
+                "name": "whitecough",
+                "lower_by": 3
+            }
+        ],
+        "risks": [
+            {
+                "name": "whitecough",
+                "chance": 20
+            }
+        ],
+        "also_got": [],
+        "cause_permanent": [
+            "raspy lungs"
+        ],
+        "herbs": {
+            "1": [
+            "tansy",
+            "plantain",
+            "ragwort"
+        ],
+            "2": [
+                "betony",
+                "juniper"
+            ],
+            "3": [
+                "mullein"
+            ]
+        }
+    },
 
     "burn":{
         "duration": 2,
@@ -1095,7 +1140,9 @@
                 "chance": 25
             }
         ],
-        "also_got": [],
+        "also_got": [
+            "smoke in their lungs"
+        ],
         "cause_permanent": [
         ],
         "herbs": {
@@ -1137,7 +1184,9 @@
                 "chance": 15
             }
         ],
-        "also_got": [],
+        "also_got": [
+            "smoke in their lungs"
+        ],
         "cause_permanent": [
             "lost their tail",
             "lost a leg"
