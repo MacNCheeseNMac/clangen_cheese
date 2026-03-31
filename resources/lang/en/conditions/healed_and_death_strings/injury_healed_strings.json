@@ -4,6 +4,11 @@
         "m_c's claw-wound has healed.",
         "m_c's wound has healed well."
     ],
+    "smoke in their lungs": [
+        "The smoke has cleared from m_c's lungs.",
+        "m_c's lungs have recovered from the smoke {PRONOUN/m_c/subject} inhaled.",
+        "m_c can finally breathe normally again, the smoke cleared from {PRONOUN/m_c/poss} lungs."
+    ],
     "bite-wound": [
         "m_c has healed from {PRONOUN/m_c/poss} bite-wound.",
         "m_c's bite-wound has healed.",
