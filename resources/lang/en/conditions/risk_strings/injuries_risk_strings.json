@@ -128,6 +128,12 @@
             "With {PRONOUN/m_c/poss} lungs already weakened by the water still in them, m_c is unable to fight off the whitecough that finds {PRONOUN/m_c/object}."
         ]
     },
+     "smoke in their lungs": {
+        "whitecough": [
+            "m_c's hacking no longer seems to be just from the smoke {PRONOUN/m_c/subject} inhaled. It must have progressed into whitecough.",
+            "With {PRONOUN/m_c/poss} lungs already weakened by the smoke still in them, m_c is unable to fight off the whitecough that finds {PRONOUN/m_c/object}."
+        ]
+    },
     "burn": {
         "an infected wound": [
             "The flesh of m_c's burn is far too warm. r_c applies a salve to try and help fight off the developing infection.",
