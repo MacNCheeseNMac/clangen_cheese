@@ -38,6 +38,10 @@
     "water in their lungs": [
         "m_c died from water in {PRONOUN/m_c/poss} lungs."
     ],
+    "water in their lungs": [
+        "m_c died from the smoke in {PRONOUN/m_c/poss} lungs.",
+        "m_c suffocated, lungs damaged to the point of nonfunctionality by the smoke {PRONOUN/m_c/subject} inhaled."
+    ],
     "burn": [
         "m_c died from {PRONOUN/m_c/poss} burns."
     ],
