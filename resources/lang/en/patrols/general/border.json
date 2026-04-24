@@ -867,7 +867,7 @@
                 "frequency": 3
             },
             {
-                "text": "Small, yappy, but... still a dog. r_c peers down from the tree where the animal has pinned {PRONOUN/r_c/object}, wincing in pain. {PRONOUN/r_c/subject/CAP} won't underestimate these ugly creatures again.",
+                "text": "Small, yappy, but... still a dog. r_c peers from the sheltered spot where the animal has pinned {PRONOUN/r_c/object}, wincing in pain. {PRONOUN/r_c/subject/CAP} won't underestimate these ugly creatures again.",
                 "exp": 0,
                 "injury": [
                     {
@@ -1185,7 +1185,7 @@
                 "min_max_status": {
                     "normal adult": [4, 6]
                 },
-                "text": "Led by p_l, and with a heap of cooperation and teamwork, the patrol drives away the red fox, seeks out her den, and kills her young cubs. The forest will be safe from both the threat the vixen posed this season, and the threat her cubs would've posed to c_n in the seasons to come.",
+                "text": "Led by p_l, and with a heap of cooperation and teamwork, the patrol drives away the red fox, seeks out her den, and kills her young cubs. These lands will be safe from both the threat the vixen posed this season, and the threat her cubs would've posed to c_n in the seasons to come.",
                 "exp": 30,
                 "frequency": 4,
                 "relationships": [
@@ -1247,7 +1247,7 @@
                 "min_max_status": {
                     "normal adult": [2, 3]
                 },
-                "text": "The mother red fox is vicious and determined, and the small patrol is beaten back. But this forest is c_n's and they haven't given up. They may have lost this battle, but c_n will win this war.",
+                "text": "The mother red fox is vicious and determined, and the small patrol is beaten back. But this land is c_n's and they haven't given up. They may have lost this battle, but c_n will win the war.",
                 "exp": 0,
                 "frequency": 4,
                 "relationships": [
@@ -1334,7 +1334,7 @@
                 ]
             },
             {
-                "text": "The mother red fox's snapping jaws leave r_c dripping blood onto the leaf litter, forcing the patrol to back off.",
+                "text": "The mother red fox's snapping jaws leave r_c dripping blood onto the soil, forcing the patrol to back off.",
                 "exp": 0,
                 "frequency": 2,
                 "injury": [
@@ -1493,7 +1493,7 @@
                 ]
             },
             {
-                "text": "The patrol finds a stocky gray vixen wandering their forest, and drives her out in a scene that mostly involves yowling and screaming and yapping at each other until she gives in. r_c gets a little battered, but everyone is mostly fine.",
+                "text": "The patrol finds a stocky gray vixen wandering their land, and drives her out in a scene that mostly involves yowling and screaming and yapping at each other until she gives in. r_c gets a little battered, but everyone is mostly fine.",
                 "exp": 15,
                 "frequency": 2,
                 "injury": [
@@ -1624,7 +1624,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol comes across a gray vixen at the end of the scent trail. She spots them too, measures herself up against them, then flees, scrambling into the trees in a move that completely surprises the cats. This round goes to the gray fox.",
+                "text": "The patrol comes across a gray vixen at the end of the scent trail. She spots them too, measures herself up against them, then flees, scrambling up a nearby tree in a move that completely surprises the cats. This round goes to the gray fox.",
                 "exp": 0,
                 "frequency": 4,
                 "relationships": [
