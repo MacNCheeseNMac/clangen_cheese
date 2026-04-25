@@ -4720,7 +4720,7 @@
         "season": [
             "any"
         ],
-        "frequency": 3,
+        "frequency": 2,
         "event_text": "A stranger limped into camp this moon, knowing c_n was friendly, and requested a few nights of shelter while {PRONOUN/n_c:0/poss} wounds healed. c_n obliged.",
         "m_c": {
             "age": [
@@ -4810,7 +4810,7 @@
         "season": [
             "any"
         ],
-        "frequency": 3,
+        "frequency": 2,
         "event_text": "A stranger requested a few days of shelter in c_n's sturdy camp while the incoming storm blew over. c_n obliged.",
         "m_c": {
             "age": [
@@ -4884,7 +4884,7 @@
         "season": [
             "any"
         ],
-        "frequency": 3,
+        "frequency": 2,
         "event_text": "A kittypet asked to join c_n but returned to Twolegplace after only a few days, realizing {PRONOUN/n_c:0/poss} distaste for outdoor living.",
         "m_c": {
             "age": [
