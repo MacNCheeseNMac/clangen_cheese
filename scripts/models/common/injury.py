@@ -28,6 +28,7 @@ class Injury(Enum):
     frostbite = "frostbite"
     recovering_from_birth = "recovering from birth"
     water_in_their_lungs = "water in their lungs"
+    smoke_in_their_lungs = "smoke in their lungs"
     burn = "burn"
     severe_burn = "severe burn"
     shock = "shock"
