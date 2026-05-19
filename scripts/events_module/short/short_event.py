@@ -225,7 +225,7 @@ class ShortEvent:
         self.dead_cat_objects.clear()
 
         if other_clan:
-            self.other_clan_name = f"{other_clan.name}Clan"
+            self.other_clan_name = i18n.t("general.clan", name=other_clan.name)
 
         self.all_involved_cat_ids.append(self.main_cat.ID)
 
@@ -439,7 +439,7 @@ class ShortEvent:
                     i18n.t("defaults.event_dead_outsider"),
                     main_cat=first_cat,
                 )
-            elif first_cat.status.is_outsider:
+            elif not first_cat.status.alive_in_player_clan:
                 n_c_index = self.new_cats.index(cat_list)
                 if (
                     f"n_c:{n_c_index}" in self.exclude_involved
@@ -884,6 +884,8 @@ class ShortEvent:
             game.clan.freshkill_pile.remove_freshkill(reduce_amount, take_random=True)
         if increase_amount != 0:
             game.clan.freshkill_pile.add_freshkill(increase_amount)
+
+        game.freshkill_event_list.append(self.text)
 
     def handle_herb_supply(self, block):
         """
