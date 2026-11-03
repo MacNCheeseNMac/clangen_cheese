@@ -14333,9 +14333,73 @@
         ],
         "success_outcomes": [
             {
-                "frequency": 4,
+                "frequency": 1,
                 "strings": [
                     "Even though there's nothing different about this place, other than the serenity it was chosen for, p_l always feels that the grief and love their Clanmates express here has seeped into every corner. {PRONOUN/p_l/subject/CAP} {VERB/p_l/tidy/tidies} the grounds, collecting rosemary as {PRONOUN/p_l/subject} {VERB/p_l/work/works}. It feels appropriate for the plant to grow here, when its herbs are used to hide the scent of death."
+                ],
+                "exp_gained": 10,
+                "relationship_changes": [
+                    {
+                        "cats_to": [
+                            "patrol_cats"
+                        ],
+                        "cats_from": [
+                            "patrol_cats"
+                        ],
+                        "mutual": false,
+                        "values": [
+                            "comfort",
+                            "trust"
+                        ],
+                        "amount": 5,
+                        "log": {
+                            "cats_from": "cat_to and cat_from worked quietly side-by-side while gathering rosemary from c_n's burial grounds."
+                        }
+                    }
+                ],
+                "supply": [
+                    {
+                        "type": "rosemary",
+                        "adjust": "increase_medium"
+                    }
+                ]
+            },
+            {
+                "frequency": 4,
+                "strings": [
+                    "r_c0 has been meaning to visit one of the graves here. p_l gives {PRONOUN/r_c0/object} time to do so, tidying a far corner in respectful silence. These burial grounds were chosen for their serenity. And their rosemary. The fragrant herb is a popular offering — would r_c0 like a sprig? r_c0 places one atop the grave and joins p_l in tending the grounds, looking lighter."
+                ],
+                "exp_gained": 10,
+                "relationship_changes": [
+                    {
+                        "cats_to": [
+                            "patrol_cats"
+                        ],
+                        "cats_from": [
+                            "patrol_cats"
+                        ],
+                        "mutual": false,
+                        "values": [
+                            "comfort",
+                            "trust"
+                        ],
+                        "amount": 5,
+                        "log": {
+                            "cats_from": "cat_to and cat_from worked quietly side-by-side while gathering rosemary from c_n's burial grounds."
+                        }
+                    }
+                ],
+                "supply": [
+                    {
+                        "type": "rosemary",
+                        "adjust": "increase_medium"
+                    }
+                ]
+            },
+            {
+                "frequency": 4,
+                "strings": [
+                    "p_l breaks that silence: would r_c0 mind waiting a moment while {PRONOUN/p_l/subject} {VERB/p_l/visit/visits} one of the graves? r_c0 wouldn't, and starts to clean alone, discovering a sense of comfort and connection in scrubbing the headstones of such ancient Clanmates. {PRONOUN/r_c0/subject/CAP} {VERB/p_l/point/points} out a rosemary patch, the herbs popular in offerings. p_l places a sprig atop the grave and gratefully joins r_c0 in tending the rest of the grounds."
                 ],
                 "exp_gained": 10,
                 "relationship_changes": [
