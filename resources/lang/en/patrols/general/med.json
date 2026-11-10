@@ -14212,6 +14212,94 @@
         ]
     },
     {
+        "event_id": "gen_med_deputyandmed1",
+        "types": [
+            "herb_gathering"
+        ],
+        "tags": [
+            "{clan:leader}"
+        ],
+        "frequency": 2,
+        "required_cat_types": {
+            "patrol_cats": [
+                2,
+                2
+            ],
+            "medicine cat": [
+                1,
+                1
+            ],
+            "deputy": [
+                1,
+                1
+            ]
+        },
+        "involved_cats": {
+            "r_c0": {}
+        },
+        "chance_of_success": 60,
+        "patrol_art": "cat_sprites/gen_med_meadow_WrMc",
+        "intro_strings": [
+            "r_c0 and p_l, deputy and medicine cat. Neither lead c_n, but both are vital to its functioning, and in the secluded herb patch, they strike up a conversation."
+        ],
+        "decline_strings": [
+            "Just before the two can leave, a cat calls for their attention."
+        ],
+        "success_outcomes": [
+            {
+                "frequency": 4,
+                "strings": [
+                    "p_l received some <i>interesting</i> information at the half-moon meeting. And r_c0, citing a past incident, immediately disagrees with {PRONOUN/p_l/poss} current plan on what to do with the information. p_l is surprised at r_c0’s passion, and then at {PRONOUN/p_l/poss} own foolishness for not coming to the same conclusion. The two return to camp with mouthfuls of herbs and an announcement for lead_name."
+                ],
+                "exp_gained": 10,
+                "relationship_changes": [
+                    {
+                        "cats_to": [
+                            "patrol_cats"
+                        ],
+                        "cats_from": [
+                            "patrol_cats"
+                        ],
+                        "mutual": false,
+                        "values": [
+                            "comfort",
+                            "trust"
+                        ],
+                        "amount": 5,
+                        "log": {
+                            "cats_from": "cat_to and cat_from worked quietly side-by-side while gathering rosemary from c_n's burial grounds."
+                        }
+                    }
+                ],
+                "supply": [
+                    {
+                        "type": "rosemary",
+                        "adjust": "increase_medium"
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "frequency": 4,
+                "strings": [
+                    "There's a sharp yowl of pain, followed by a string of muttered curses, and p_l turns to see r_c1 holding one of {PRONOUN/r_c1/poss} paws off the ground. It seems that the apprentice stepped on a thorn. Ouch! {PRONOUN/r_c1/subject/CAP}'ll have to go back to camp and fix that up."
+                ],
+                "exp_gained": 0,
+                "condition": [
+                    {
+                        "cats": [
+                            "r_c1"
+                        ],
+                        "condition": [
+                            "small_cut"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "event_id": "gen_med_gatheringrosemary1",
         "types": [
             "herb_gathering"
