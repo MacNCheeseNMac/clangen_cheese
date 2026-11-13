@@ -21,6 +21,7 @@ class TagEnum(Enum):
     low_lives = "low_lives"
     clan_apps = "clan:apps"
     clan_warrior_like = "clan:warrior-like"
+    clan_non_kitten = "clan:non-kitten"
     lost = "lost"
     kit_manipulated = "kit_manipulated"
     romance = "romance"

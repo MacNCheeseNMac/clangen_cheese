@@ -209,15 +209,15 @@ def event_for_tags(tags: list, cat, other_cat=None) -> bool:
                 else:
                     if sub_tag_check.group(1) in CatRank and sub_tag_check.group(
                         1
-                    ) not in [
+                    ) in [
                         CatRank.LEADER,
                         CatRank.DEPUTY,
                     ]:
-                        minimums.append(2)
-                        # Default Minimum is 2 for non deputy, non leader ranks.
-                    else:
-                        # Default minimun is 1 for anything else.
                         minimums.append(1)
+                        # Default Minimum is 1 for leader and deputy ranks.
+                    else:
+                        # Default minimun is 2 for anything else.
+                        minimums.append(2)
 
             for rank, mi in zip(ranks, minimums):
                 rank_matched = True
@@ -246,6 +246,28 @@ def event_for_tags(tags: list, cat, other_cat=None) -> bool:
                                     CatRank.LEADER,
                                     CatRank.DEPUTY,
                                     CatRank.WARRIOR,
+                                ],
+                            )
+                        )
+                        >= mi
+                    ):
+                        rank_matched = False
+
+                elif rank == "non-kitten":
+                    if (
+                        not len(
+                            find_alive_cats_with_rank(
+                                cat,
+                                [
+                                    CatRank.LEADER,
+                                    CatRank.DEPUTY,
+                                    CatRank.WARRIOR,
+                                    CatRank.MEDICINE_CAT,
+                                    CatRank.MEDIATOR,
+                                    CatRank.ELDER,
+                                    CatRank.APPRENTICE,
+                                    CatRank.MEDIATOR_APPRENTICE,
+                                    CatRank.MEDICINE_APPRENTICE,
                                 ],
                             )
                         )
