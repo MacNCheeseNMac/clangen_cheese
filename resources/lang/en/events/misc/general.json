@@ -2355,21 +2355,6 @@
         }
     },
     {
-        "event_id": "non_kitten_test0",
-        "location": [
-            "any"
-        ],
-        "season": [
-            "any"
-        ],
-        "tags": [
-            "clan:apps"
-        ],
-        "frequency": 4,
-        "event_text": "NON-KITTEN TEST",
-        "m_c": {}
-    },
-    {
         "event_id": "multi_misc_leafbare_misc1",
         "location": [
             "forest",
